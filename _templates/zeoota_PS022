@@ -6,8 +6,11 @@ type: Power Strip
 standard: eu
 link: https://www.aliexpress.com/item/Smart-Wifi-Power-Strip-Surge-Protector-Multiple-Power-Sockets-4-USB-Port-Voice-Control-for-Amazon/32864068545.html
 image: https://ae01.alicdn.com/kf/HTB1UuSemKySBuNjy1zdq6xPxFXaP.jpg
+OLD:
 template: '{"NAME":"ZEOOTA 3x plus","GPIO":[0,57,0,56,22,21,0,0,17,23,24,0,0],"FLAG":1,"BASE":18}'
-link2:
+NEW:
+template: '{"NAME":"ZEOOTA 3x plus","GPIO":[0,321,0,320,225,224,0,0,32,226,227,0,0,4704],"FLAG":0,"BASE":18}'
+link2: https://tasmota.github.io/docs/Buttons-and-Switches/#multi-press-functions
 ---
 
 Button controls single relay only. To switch other relays use rules.
